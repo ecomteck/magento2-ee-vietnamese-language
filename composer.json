@@ -1,0 +1,27 @@
+{
+  "name": "ecomteck/magento-2-ee-vietnamese-language",
+  "description": "Vietnamese (Tiếng Việt) Magento2 EE Language Pack (vi_VN) - From LeeStyle",
+  "version": "0.0.1",
+  "homepage": "http://ecomteck.github.io/",
+  "license": [
+    "MIT"
+  ],
+  "authors": [
+    {
+      "name": "Ecomteck",
+      "email": "ecomteck@gmail.com",
+      "homepage": "https://www.ecomteck.com/",
+      "role": "Owner"
+    }
+  ],
+  "require": {
+    "magento/framework": "*",
+    "magento2translations/language_vi_vn": "*"
+  },
+  "type": "magento2-ee-language",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ]
+  }
+}
